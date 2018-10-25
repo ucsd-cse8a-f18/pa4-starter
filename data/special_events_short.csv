@@ -1,0 +1,7 @@
+event_title,event_id,event_type,event_start,event_end,exp_attendance,exp_participants,event_host,event_url,event_address,lat,long
+Port of San Diego Holiday Bowl Parade,fakeId1,PARADES,2018-12-31 9:50,2018-12-31 13:00,60000,5000,Holiday Bowl,www.holidaybowl.com,Harbor Dr & Cedar St.,32.7293076,-117.1997407
+Holiday Bowl 5K,fakeId2,ATHLETIC,2018-12-31 8:00,2018-12-31 11:00,1000,100,KOZ Events,www.kozenterprises.com,Harbor Dr.& Ash St,,
+Father Joe's Thanksgiving Day 5K,fakeId3,ATHLETIC,2018-11-22 6:30,2018-11-22 11:00,9000,100,St. Vincent De Paul Village,www.thanksgivingrun.org,,NaN,NaN
+Curbside Bites Food Truck Markets (Wed. Lunch),fakeId4,FARMERS,2017-12-20 11:00,2017-12-20 14:00,300/day,25,Curbside Bites,www.curbsidebites.com,500 West B Street,32.71799441,-117.1676525
+Coastal Cleanup Day,fakeId5,FESTIVAL,2018-09-15 8:00,2018-09-15 14:00,,,,www.cleanupday.org/,404 Sea World Drive,32.76115329,-117.2210702
+CRSSD Music Festival Fall 2018,fakeId6,FESTIVAL,2018-09-29 12:00,2018-09-29 23:00,15 300,500,FNGRS CRSSD,www.crssdfest.com,1600 Pacific Highway,32.72216251,-117.1720125
