@@ -1,1 +1,1 @@
-zip pa4.zip PA4.java Answers.txt
+zip pa4.zip Analysis.java PA4.java Answers.txt
