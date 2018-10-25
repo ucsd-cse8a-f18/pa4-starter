@@ -67,10 +67,15 @@ long parseLong(String s) {
   return Long.parseLong(s);
 }
 
-String readLine(String path, int index) throws java.io.IOException {
-  final Path filePath = Paths.get(path);
-  final List<String> contents = Files.readAllLines(filePath);
-  return contents.get(index);
+String readLine(String path, int index) {
+  try {
+    final Path filePath = Paths.get(path);
+    final List<String> contents = Files.readAllLines(filePath);
+    return contents.get(index);
+  }
+  catch (IOException ioe) {
+      throw new RuntimeException(ioe.toString());
+  }
 }
 
 int count(String base, String toFind) {
@@ -130,12 +135,17 @@ boolean show(String s, int numLines) {
   return true;
 }
 
-String readFile(String path) throws java.io.IOException {
-  final Path filePath = Paths.get(path);
-  final List<String> contents = Files.readAllLines(filePath);
-  StringBuilder result = new StringBuilder();
-  for(String s: contents) { result.append(s + "\n"); }
-  return result.toString();
+String readFile(String path) {
+  try {
+    final Path filePath = Paths.get(path);
+    final List<String> contents = Files.readAllLines(filePath);
+    StringBuilder result = new StringBuilder();
+    for(String s: contents) { result.append(s + "\n"); }
+    return result.toString();
+  }
+  catch (IOException ioe) {
+    throw new RuntimeException(ioe.toString());
+  }
 }
 
 String intToString(int n) {
