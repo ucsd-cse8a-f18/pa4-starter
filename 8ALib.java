@@ -129,7 +129,7 @@ long dateYearMonthDayTime(String date) {
 boolean show(String s, int numLines) {
   final String[] lines = s.split("\n");
   for(int i = 0; i < numLines; i += 1) {
-    if(numLines >= lines.length) { return false; }
+    if(i >= lines.length) { return false; }
     System.out.println(lines[i]);
   }
   return true;
